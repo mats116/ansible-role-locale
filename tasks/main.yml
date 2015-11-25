@@ -1,0 +1,4 @@
+- name: modify locale
+  locale_gen:
+    name: "{{ locale_name }}.{{ locale_encoding }}"
+    state: present
